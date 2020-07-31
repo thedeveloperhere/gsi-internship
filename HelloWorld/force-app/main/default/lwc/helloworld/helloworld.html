@@ -1,0 +1,20 @@
+<template>
+  <lightning-card title="HelloWorld" icon-name="custom:custom14">
+    <div class="slds-m-around_medium">
+      <p>Welcome {greeting}!</p>
+      <lightning-input
+        label="Name"
+        value={greeting}
+        onchange={changeHandler}
+      ></lightning-input>
+      <lightning-button
+        class="slds-p-around_medium"
+        variant="brand"
+        label="SUbmit"
+        onclick={handleSubmit}
+      >
+      </lightning-button>
+      <p class="slds-"></p>
+    </div>
+  </lightning-card>
+</template>
