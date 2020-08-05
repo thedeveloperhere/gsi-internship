@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/mermaid@8.6.0/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+      <div class="mermaid">
+        graph TD  
+        A[Start] --> B[Look For Lost Item] 
+       --> C{Did You find it?}  
+        C -->|Yes| D[Stop Looking] --> F[Finish]  
+        C -->|No| E{Did you need that}
+        E -->|Yes| B
+        E -->|No| D 
+      </div>
+  </body>
+</html>
