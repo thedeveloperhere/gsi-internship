@@ -1,5 +1,11 @@
 # Daily Standups
 
+## AUG 05 2020
+
+- After the morning session I went through the slides and read about documentation and its use and how good documentation helps us in maintaining a refrence to our work. After that I made a flowchart on draw.io about making tea(just for practice).
+- After that I read about mermaid js and about its use and why it is so popular. I used the live editor provided in github page of mermaid js and made some flowcharts for practice. I downloaded the mermaid cli and made a flowchart using vs code .
+  -The link to my repo https://github.com/thedeveloperhere/gsi-internship
+
 ## JULY 31 2020
 
 - For the todays session we had the salesforce website to understand. After the instructor gave us the slides. I went through the slides to understand the basic ideas about apex, lwc and aura and how to make our component, org and deploy our component to the org. I finished the tasks at the trailhead website and earned two badges and there after went to the reference links and read through it.
