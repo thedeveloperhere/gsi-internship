@@ -4,7 +4,13 @@
 
 - After the morning session I went through the slides and read about documentation and its use and how good documentation helps us in maintaining a refrence to our work. After that I made a flowchart on draw.io about making tea(just for practice).
 - After that I read about mermaid js and about its use and why it is so popular. I used the live editor provided in github page of mermaid js and made some flowcharts for practice. I downloaded the mermaid cli and made a flowchart using vs code .
-  -The link to my repo https://github.com/thedeveloperhere/gsi-internship
+- The link to my repo https://github.com/thedeveloperhere/gsi-internship
+
+## AUG 04 2020
+
+- After the git session, I made an account on gitlab and familiarise with the site. After accepting the inivitation for the cs practice repo, I cloned the repo in my system using git commands and then I made a new branch and a ci config file. In the ci config file we have to we have to make two stages for building and testing.
+- After writing the code and commiting it, all tests were passed and it ran successfully then I edited the read me file, and add a merge request request as stated in the task itself. After the task was done we were provided with reference links so I read that.
+- In the evening we have to submit the summary of two podcasts. So the first podcast was 15-20 mins but the second one was about 1 hr so it took a large amount of time to do this task.
 
 ## JULY 31 2020
 
