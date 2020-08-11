@@ -26,6 +26,7 @@
     "prettier-plugin-apex": "^1.5.0"
   },
   "dependencies": {
-    "@salesforce-ux/design-system": "^2.12.2"
+    "@salesforce-ux/design-system": "^2.12.2",
+    "chart.js": "^2.9.3"
   }
 }
