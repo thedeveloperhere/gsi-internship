@@ -5,11 +5,11 @@
   display: flex;
   height: 3.125rem;
   background-color: #4565c8;
+  
   background-size: 175px;
   background-image: url("bkg_diamond.png");
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.08);
   color: white;
-  top: 0;
 }
 .nav-h-list {
   display: flex;
@@ -52,33 +52,76 @@
 .clock-div:hover {
   background-color: #f2f2f2;
 }
-.chart-1 {
-  position: absolute;
-  top: 1100px;
-  left: 228px;
+
+.top-country {
+  position: relative;
+  top: 600px;
+  left: 220px;
+
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 4px 4px 4px rgba(0, 0, 0, 0.3);
-  width: 1270px;
-  display: flex;
+  width: 580px;
+  height: 350px;
 }
-.studies {
+
+.top-cities {
   position: absolute;
-  top: 1700px;
-  left: 228px;
+  top: 0px;
+  left: 630px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 4px 4px 4px rgba(0, 0, 0, 0.3);
-  width: 1270px;
-  display: flex;
+  width: 580px;
+  height: 350px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 610px;
 }
-.chart-2 {
-  flex: 1;
-  justify-content: flex-end;
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
-.studies-1 {
-  flex: 1;
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  background: transparent;
 }
-.studies-2 {
-  flex: 1;
+.sidebar header {
+  font-size: 22px;
+  color: rgba(34, 28, 28, 0.767);
+  text-align: center;
+  color: transparent;
+  line-height: 65px;
+  bottom: 700px;
+  background: transparent;
+
+  user-select: none;
+}
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  color: black;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+ul li:hover a {
+  background: rgb(151, 206, 240);
+}
+.left{
+    background: #56d9f0;
+}
+.right{
+    background: #3a44d1;
 }

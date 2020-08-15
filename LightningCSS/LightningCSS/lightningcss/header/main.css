@@ -59,7 +59,7 @@
   color: #000000;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-  inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+    inset 4px 4px 4px rgba(0, 0, 0, 0.3);
   left: 220px;
   height: 160px;
 }
@@ -98,22 +98,25 @@
 .line-chart {
   position: absolute;
   top: 280px;
-  left: 228px;
+  left: 220px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-  inset 4px 4px 4px rgba(0, 0, 0, 0.3);
-  width: 1270px;
+    inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 1260px;
 }
 .gs-table-title {
   font-size: 1.5rem;
 }
 .pie-chart {
   position: relative;
-  top: 520px;
+  top: 540px;
   left: 220px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-  inset 4px 4px 4px rgba(0, 0, 0, 0.3);
-  width: 1270px;
+    inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 1265px;
 }
 
+gs-chart-title {
+  font-size: 1.5rem;
+}
