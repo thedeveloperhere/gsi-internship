@@ -1,0 +1,119 @@
+.slds-builder-header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.125rem;
+  background-color: #4565c8;
+  background-size: 175px;
+  background-image: url("bkg_diamond.png");
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.08);
+  color: white;
+}
+.nav-h-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  margin: 5px;
+  width: 40px;
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  background: #ffffff45;
+  transition: all 0.5s ease-in-out;
+}
+.logo:hover {
+  background-color: #f2f2f2;
+  opacity: 0.3;
+}
+
+.logo2 {
+  margin: 5px;
+  height: 35px;
+}
+
+.global-search {
+  margin: 7px;
+  border-radius: 2px;
+}
+.clock-logo {
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+}
+.clock-div {
+  margin: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.clock-div:hover {
+  background-color: #f2f2f2;
+}
+.info {
+  position: absolute;
+  top: 60px;
+  display: flex;
+  color: #000000;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+  inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+  left: 220px;
+  height: 160px;
+}
+.slds-form-element {
+  margin: 30px;
+}
+.slds-form-element__label {
+  font-size: 20px;
+}
+.slds-input {
+  width: 250px;
+  height: 30px;
+}
+.left-button {
+  position: absolute;
+  top: 120px;
+  left: 40px;
+}
+.slds-button {
+  width: 120px;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  font-size: large;
+}
+.right-button {
+  position: absolute;
+  top: 120px;
+  right: 50px;
+}
+.left {
+  background: rgb(68, 182, 235);
+}
+.right {
+  background: rgb(126, 133, 228);
+}
+.line-chart {
+  position: absolute;
+  top: 280px;
+  left: 228px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+  inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 1270px;
+}
+.gs-table-title {
+  font-size: 1.5rem;
+}
+.pie-chart {
+  position: relative;
+  top: 520px;
+  left: 220px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+  inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 1270px;
+}
+
