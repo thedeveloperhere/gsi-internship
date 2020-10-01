@@ -19,5 +19,14 @@
         E -->|Yes| B
         E -->|No| D 
       </div>
+      <div class="mermaid">
+        graph TD  
+        A[Start] --> B[Can you help anybody?] 
+       --> C{Did you see anyone}  
+        C -->|Yes| D[Stop Roaming] --> F[Finish]  
+        C -->|No| E{Is it really important}
+        E -->|Yes| B
+        E -->|No| D 
+      </div>
   </body>
 </html>
