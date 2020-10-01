@@ -14,10 +14,11 @@
         graph TD  
         A[Start] --> B[Look For Lost Item] 
        --> C{Did You find it?}  
-        C -->|Yes| D[Stop Looking] --> F[Finish]  
-        C -->|No| E{Did you need that}
+        C -->|Yes| D[Stop Looking] --> F[Finish searching]  
+        C -->|No| E{Do you really need that ?}
         E -->|Yes| B
         E -->|No| D 
       </div>
+    <hr>
   </body>
 </html>
